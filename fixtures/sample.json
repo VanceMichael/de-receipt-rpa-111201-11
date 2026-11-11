@@ -1,0 +1,11 @@
+{
+  "applications": [
+    {
+      "approval": "A100",
+      "content": {
+        "equipment": "声学传感器",
+        "count": 1
+      }
+    }
+  ]
+}

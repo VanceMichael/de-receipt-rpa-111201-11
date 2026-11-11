@@ -1,0 +1,38 @@
+{
+  "applications": [
+    {
+      "approval": "A100",
+      "content": {
+        "equipment": "成像仪",
+        "count": 1
+      }
+    },
+    {
+      "approval": "A101",
+      "content": {
+        "equipment": "水听器",
+        "count": 2
+      }
+    }
+  ],
+  "events": [
+    {
+      "approval": "A100",
+      "action": "submit_then_drop_response"
+    },
+    {
+      "approval": "A100",
+      "action": "query_unavailable"
+    },
+    {
+      "approval": "A101",
+      "action": "human_confirmation"
+    },
+    {
+      "action": "expire_session"
+    }
+  ],
+  "query_semantics": {
+    "not_found_is_final": false
+  }
+}
