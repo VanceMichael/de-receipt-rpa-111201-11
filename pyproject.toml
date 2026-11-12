@@ -1,6 +1,6 @@
 [project]
 name = "receipt-rpa"
-version = "0.1.0"
-description = "本地数据采集与来源凭据"
+version = "0.2.0"
+description = "本地数据采集与申报门户可靠批量自动操作（不确定提交与业务核对）"
 requires-python = ">=3.11"
 dependencies = []

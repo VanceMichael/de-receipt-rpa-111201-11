@@ -25,6 +25,10 @@
       "action": "query_unavailable"
     },
     {
+      "approval": "A100",
+      "action": "query_unavailable"
+    },
+    {
       "approval": "A101",
       "action": "human_confirmation"
     },
